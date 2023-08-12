@@ -11,7 +11,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Live Site URL: [Github Pages](ReplaceWithActualLiveUrl)
+- Live Site URL: [Github Pages](https://pkthunder87.github.io/3-column-preview-card/)
 
 ### Built with
 
