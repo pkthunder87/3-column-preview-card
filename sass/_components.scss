@@ -9,6 +9,14 @@
 
   & > * {
     padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .icon {
+      height: 40px;
+      width: 64px;
+    }
   }
 
   // General Styles
@@ -24,7 +32,24 @@
   }
 
   .btn {
-    color: var(--color-very-light-gray);
+    background-color: var(--color-very-light-gray);
+    padding: 1.2rem 2.4rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 200px;
+    align-self: flex-start;
+
+    &__text--1 {
+      color: var(--color-bright-orange);
+    }
+
+    &__text--2 {
+      color: var(--color-dark-cyan);
+    }
+    &__text--3 {
+      color: var(--color-very-dark-cyan);
+    }
   }
 
   // Individual Cells
