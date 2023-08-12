@@ -62,7 +62,7 @@ body {
   overflow: hidden;
 }
 .three-col-card > * {
-  padding: 5rem;
+  padding: 5rem 4.8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,29 +70,38 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 3rem;
+  gap: 3.3rem;
 }
 .three-col-card > * .icon {
   height: 40px;
   width: 64px;
+  margin-top: -0.1rem;
 }
 .three-col-card .heading {
+  font-family: "Big Shoulders Display", cursive;
   text-transform: uppercase;
   color: var(--color-very-light-gray);
   font-weight: 700;
+  font-size: 4rem;
+  margin-top: 0.1rem;
 }
 .three-col-card .body-text {
   font-weight: 400;
+  line-height: 1.7;
+  margin-top: -0.8rem;
 }
 .three-col-card .btn {
+  margin-top: 4.7rem;
   background-color: var(--color-very-light-gray);
-  padding: 1.2rem 2.4rem;
+  padding: 1.6rem 3.3rem;
   border: none;
   cursor: pointer;
   font-weight: 700;
   border-radius: 200px;
   -ms-flex-item-align: start;
       align-self: flex-start;
+  font-size: 1.5rem;
+  -webkit-font-smoothing: antialiased;
 }
 .three-col-card .btn__text--1 {
   color: var(--color-bright-orange);
