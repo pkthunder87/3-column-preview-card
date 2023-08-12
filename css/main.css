@@ -29,7 +29,8 @@ body {
   width: 100vw;
   font-family: "Lexend Deca", sans-serif;
   font-size: 1.5rem;
-  text-align: center;
+  text-align: left;
+  color: var(--color-transparent-white);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,6 +49,39 @@ body {
 
 .headers {
   font-family: "Big Shoulders Display", cursive;
+}
+
+.three-col-card {
+  height: 60vh;
+  width: 80vw;
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.three-col-card > * {
+  padding: 3rem;
+}
+.three-col-card .heading {
+  text-transform: uppercase;
+  color: var(--color-very-light-gray);
+  font-weight: 700;
+}
+.three-col-card .body-text {
+  font-weight: 400;
+}
+.three-col-card .btn {
+  color: var(--color-very-light-gray);
+}
+.three-col-card .col-card-1 {
+  background-color: var(--color-bright-orange);
+}
+.three-col-card .col-card-2 {
+  background-color: var(--color-dark-cyan);
+}
+.three-col-card .col-card-3 {
+  background-color: var(--color-very-dark-cyan);
 }
 
 .attribution {

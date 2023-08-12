@@ -1,0 +1,42 @@
+.three-col-card {
+  height: 60vh;
+  width: 80vw;
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 5px;
+  overflow: hidden;
+
+  & > * {
+    padding: 3rem;
+  }
+
+  // General Styles
+
+  .heading {
+    text-transform: uppercase;
+    color: var(--color-very-light-gray);
+    font-weight: 700;
+  }
+
+  .body-text {
+    font-weight: 400;
+  }
+
+  .btn {
+    color: var(--color-very-light-gray);
+  }
+
+  // Individual Cells
+  .col-card-1 {
+    background-color: var(--color-bright-orange);
+  }
+
+  .col-card-2 {
+    background-color: var(--color-dark-cyan);
+  }
+
+  .col-card-3 {
+    background-color: var(--color-very-dark-cyan);
+  }
+}
