@@ -32,7 +32,6 @@ body {
   text-align: left;
   color: var(--color-transparent-white);
   -webkit-font-smoothing: antialiased;
-  font-smooth: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,16 +53,16 @@ body {
 }
 
 .three-col-card {
-  height: 60vh;
-  width: 80vw;
+  height: 50rem;
+  width: 92rem;
   background-color: aqua;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  border-radius: 5px;
+  border-radius: 9px;
   overflow: hidden;
 }
 .three-col-card > * {
-  padding: 3rem;
+  padding: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,9 +70,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  gap: 3rem;
 }
 .three-col-card > * .icon {
   height: 40px;

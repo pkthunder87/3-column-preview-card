@@ -1,17 +1,17 @@
 .three-col-card {
-  height: 60vh;
-  width: 80vw;
+  height: 50rem;
+  width: 92rem;
   background-color: aqua;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  border-radius: 5px;
+  border-radius: 9px;
   overflow: hidden;
 
   & > * {
-    padding: 3rem;
+    padding: 5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 3rem;
 
     .icon {
       height: 40px;
