@@ -49,6 +49,16 @@
     font-size: 1.5rem;
     -webkit-font-smoothing: antialiased;
 
+    &:active {
+      padding: 1.4rem 3.1rem;
+      background-color: inherit;
+      border: 2px solid var(--color-very-light-gray);
+
+      & > * {
+        color: var(--color-very-light-gray);
+      }
+    }
+
     &__text--1 {
       color: var(--color-bright-orange);
     }
