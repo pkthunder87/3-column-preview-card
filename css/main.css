@@ -128,12 +128,12 @@ body {
     margin-top: 0;
   }
 }
-.three-col-card .btn:active {
+.three-col-card .btn:hover {
   padding: 1.4rem 3.1rem;
   background-color: inherit;
   border: 2px solid var(--color-very-light-gray);
 }
-.three-col-card .btn:active > * {
+.three-col-card .btn:hover > * {
   color: var(--color-very-light-gray);
 }
 .three-col-card .btn__text--1 {
