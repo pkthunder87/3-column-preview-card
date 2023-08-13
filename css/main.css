@@ -23,6 +23,11 @@ html {
           box-sizing: border-box;
   font-size: 62.5%;
 }
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 75%;
+  }
+}
 
 body {
   height: 100vh;
@@ -72,10 +77,25 @@ body {
           flex-direction: column;
   gap: 3.3rem;
 }
+@media only screen and (max-width: 400px) {
+  .three-col-card > * {
+    padding: 5rem 4rem;
+  }
+}
 .three-col-card > * .icon {
   height: 40px;
   width: 64px;
   margin-top: -0.1rem;
+}
+@media only screen and (max-width: 400px) {
+  .three-col-card {
+    margin: 2rem 0;
+    width: 90vw;
+    height: 80vh;
+    grid-template-columns: 90vw;
+    grid-template-rows: repeat(3, 1fr);
+    overflow: scroll;
+  }
 }
 .three-col-card .heading {
   font-family: "Big Shoulders Display", cursive;
@@ -102,6 +122,11 @@ body {
       align-self: flex-start;
   font-size: 1.5rem;
   -webkit-font-smoothing: antialiased;
+}
+@media only screen and (max-width: 400px) {
+  .three-col-card .btn {
+    margin-top: 0;
+  }
 }
 .three-col-card .btn:active {
   padding: 1.4rem 3.1rem;

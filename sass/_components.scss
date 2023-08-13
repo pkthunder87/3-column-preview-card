@@ -13,11 +13,24 @@
     flex-direction: column;
     gap: 3.3rem;
 
+    @media only screen and (max-width: 400px) {
+      padding: 5rem 4rem;
+    }
+
     .icon {
       height: 40px;
       width: 64px;
       margin-top: -0.1rem;
     }
+  }
+
+  @media only screen and (max-width: 400px) {
+    margin: 2rem 0;
+    width: 90vw;
+    height: 80vh;
+    grid-template-columns: 90vw;
+    grid-template-rows: repeat(3, 1fr);
+    overflow: scroll;
   }
 
   // General Styles
@@ -48,6 +61,10 @@
     align-self: flex-start;
     font-size: 1.5rem;
     -webkit-font-smoothing: antialiased;
+
+    @media only screen and (max-width: 400px) {
+      margin-top: 0;
+    }
 
     &:active {
       padding: 1.4rem 3.1rem;
